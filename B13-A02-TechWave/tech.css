@@ -22,3 +22,21 @@ body {
     background-color: #1A0B2E;
     color: #ffffff;
 }
+/* share propartise */
+.display-flex{
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+}
+.nav-bar h2{
+    font-size: 3rem;
+    font-weight: 700px;
+    padding-bottom: 20px;
+}
