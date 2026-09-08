@@ -568,3 +568,365 @@ body {
     font-size: 15px;
     margin: 0;
 }
+/* for small device */
+@media screen and (max-width:576px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar {
+        width: 100%;
+        margin: 0;
+        padding: 8px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #4e2386e7;
+    }
+
+    .nav-bar h2 {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .nav-links,
+    .nav-bar .btn {
+        display: none;
+    }
+
+    .nav-bar::after {
+        content: "";
+        width: 18px;
+        height: 18px;
+
+        background-image: url("assets/hamburger-menu.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .banner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 245px;
+    }
+
+    .banner-img .bg {
+        width: 100%;
+        height: 245px;
+        object-fit: cover;
+    }
+
+    .banner-img .circle {
+        width: 145px;
+        top: 20px;
+    }
+
+    .banner-img .mic {
+        width: 55px;
+        top: 50px;
+    }
+
+    .banner-img h4.new {
+        display: none;
+    }
+
+    .new {
+        top: 25px;
+        left: 62%;
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+
+    .tech-h1 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .tech-paragraph {
+        font-size: 8px;
+        padding: 0 15px;
+        margin-top: 5px;
+        line-height: 1.4;
+    }
+
+    .hero-button {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+    }
+
+    .hero-btn {
+        width: 120px;
+        height: 30px;
+        padding: 5px;
+        margin: 0;
+        font-size: 8px;
+    }
+
+    .hero-bt {
+        width: 75px;
+        height: 30px;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+
+    .about {
+        width: 100%;
+        padding: 35px 10px 0;
+    }
+
+    .about-h2 {
+        font-size: 16px;
+    }
+
+    .about-p {
+        font-size: 8px;
+        line-height: 1.4;
+        margin: 12px auto;
+    }
+
+    .about-p br {
+        display: none;
+    }
+
+    .about-p2 {
+        font-size: 8px;
+        line-height: 1.4;
+        padding-bottom: 25px;
+    }
+
+    .number {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        margin: 25px 0px 35px;
+    }
+
+    .green {
+        font-size: 19px;
+    }
+
+    .green-down {
+        font-size: 7px;
+        margin-top: 5px;
+    }
+
+
+    .chose {
+        width: 100%;
+        padding: 30px 9px;
+    }
+
+    .chose-h2 {
+        font-size: 16px;
+        margin: 0px 0px 20px;
+    }
+
+    .chose-card {
+        width: 100%;
+        display: grid;
+
+        grid-template-areas:
+            "premium"
+            "card-mobile"
+            "card-global"
+            "card-interviews"
+            "card-resources";
+
+        gap: 7px;
+    }
+
+    .premium,
+    .card-mobile,
+    .card-global,
+    .card-interviews,
+    .card-resources {
+        padding: 15px 12px;
+        border-radius: 12px;
+    }
+
+    .chose-card img {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 5px;
+    }
+
+    .chose-card h3 {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
+    .chose-card p {
+        font-size: 7px;
+        line-height: 1.4;
+    }
+
+    .premium {
+        padding-top: 15px;
+    }
+
+
+    .ep {
+        width: 100%;
+        margin: 0;
+        padding: 35px 9px;
+    }
+
+    .ep-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .ep-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .ep-card1 {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .video-thumb {
+        width: 100%;
+        height: 145px;
+    }
+
+    .play-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .play-button i {
+        font-size: 18px;
+    }
+
+    .ep-card1 h3 {
+        font-size: 9px;
+        padding: 8px 8px 3px;
+    }
+
+    .ep-card1 p {
+        font-size: 7px;
+        line-height: 1.4;
+        padding: 0 8px 6px;
+    }
+
+    .clock {
+        width: 9px;
+        height: 9px;
+        margin-left: 8px;
+    }
+
+    .ep-card1 .time {
+        font-size: 7px;
+    }
+
+
+    .host-section {
+        width: 100%;
+        padding: 30px 9px 40px;
+    }
+
+    .host-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .host-container {
+        width: 100%;
+        padding: 20px 15px;
+        border-radius: 12px;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .host-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .host-content h3 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .host-content p {
+        font-size: 7px;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .social-icons a {
+        width: 22px;
+        height: 22px;
+    }
+
+    .social-icons img {
+        width: 11px;
+        height: 11px;
+    }
+
+
+    .footer {
+        width: 100%;
+        padding: 45px 10px 30px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer h2 {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+
+    .footer-links a {
+        font-size: 7px;
+        gap: 4px;
+    }
+
+    .footer-links img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .footer p {
+        font-size: 6px;
+    }
+}
