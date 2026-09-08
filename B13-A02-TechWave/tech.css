@@ -517,3 +517,54 @@ body {
     height: 18px;
     object-fit: contain;
 }
+
+.footer {
+    background: url("assets/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.footer h2 {
+    color: white;
+    font-size: 76px;
+    margin: 0 0 20px;
+}
+
+.footer h2 span {
+    background: linear-gradient(90deg, #ff00c8, #8b00ff);
+    background-clip: text;
+    color: transparent;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #aaa2b5;
+    font-size: 16px;
+}
+
+.footer-links img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer p {
+    color: #9990a8;
+    font-size: 15px;
+    margin: 0;
+}
